@@ -179,16 +179,20 @@ h2{
       
     }
      .g-h1{
-  font-size: 30px;
+  font-size: 25px;
   
   }
     
     footer{
       margin: 0 ;
-      display: flex;
+     
+    }
+      .links{
+ display: flex;
       flex-direction: column;
   
-    }
+
+  }
      
    
   }
