@@ -193,7 +193,9 @@ h2{
   
 
   }
-     
+     li{
+       border-bottom: solid 2px black;
+     }
    
   }
   @media screen and (max-width: 926px){
