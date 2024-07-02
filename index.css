@@ -37,7 +37,7 @@ font-family: electricKick;
 text-decoration: none;
   
 }
-a::hover{
+a:hover{
   text-decoration: underline;
 }
 .mode{
