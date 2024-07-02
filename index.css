@@ -203,6 +203,10 @@ h2{
      
       
     }
+     .g{
+    
+    font-weight: bold;
+  }
    
   }
   @media screen and (max-width: 200px){
