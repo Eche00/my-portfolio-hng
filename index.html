@@ -8,25 +8,25 @@
 </head>
 <body>
 <!-- header section -->
- <header class="header" data-testid="page-header">
+ <header class="header" data-testid="header">
   <h1><a  data-testid="hngLink" href="https://hng.tech/learn">HNG Task 1</a></h1>
-  <img data-testid="change-background-mode" onclick="changeMode()" class="mode" src="./asset/sun.jpeg" alt="">
+  <img  onclick="changeMode()" class="mode" src="./asset/sun.jpeg" alt="">
  </header>
  <!-- details section -->
   <div class="details" data-testid="my-details">
     <!-- slack profile image -->
     <div class="profile-img" >
-      <img data-testid="my-slack-profile-image" class="img" src="./asset/profile.jpeg" alt="">
+      <img data-testid="slackProfilePicture" class="img" src="./asset/profile.jpeg" alt="">
     </div>
     <!-- details info -->
-    <div class="info" data-testid="my-slack-info">
+    <div class="info" data-testid="slackInfo">
       <!-- personal details -->
       <div class="personal-details">
-        <p  class="detail" data-testid="my-full-name">Full Name :<span>Eze Echezonachukwu Justice</span></p>
-        <p class="detail" data-testid="my-display-name">Display Name :<span>@eche_codes</span></p>
-        <p class="detail" data-testid="my-email">Email :<span>echeeze956@gmail.com</span></p>
-        <p class="detail" data-testid="current-time-using-utc">Current Time :<span id="current-time"> </span></p>
-        <p class="detail" data-testid="current-day">Current Day :<span id="current-day"></span></p>
+        <p  class="detail" data-testid="slackFullName">Full Name :<span>Eze Echezonachukwu Justice</span></p>
+        <p class="detail" data-testid="slackDisplayedName">Display Name :<span>@eche_codes</span></p>
+        <p class="detail" data-testid="slackEmail">Email :<span>echeeze956@gmail.com</span></p>
+        <p class="detail" data-testid="currentTimeUtc">Current Time :<span id="current-time"> </span></p>
+        <p class="detail" data-testid="currentDay">Current Day :<span id="current-day"></span></p>
 
       </div>
        
@@ -55,8 +55,8 @@
    
     </div>
 
-    <footer>
-      <div class="links" data-testid="">
+    <footer data-testid="footer">
+      <div class="links" data-testid="linksSection">
 <a data-testid="hngLink"  href="https://hng.tech/learn">HNG</a>
 <a data-testid="keywordLink"  href="https://keyword.dog/">KEYWORD</a>
 <a data-testid="scrapeanywebLink"  href="https://scrapeanyweb.site/">SCRAPEANYWEB</a>
